@@ -1,0 +1,24 @@
+.card {
+    width: 100%;
+}
+
+.channel {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+.channel:hover {
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.channel p {
+    margin: 0 0 0 10px;
+}
