@@ -1,0 +1,111 @@
+.card {
+    width: 70%;
+}
+
+.card p {
+    margin: 0;
+}
+
+.textArea {
+    max-height: 500px;
+    margin-top: 10px;
+    scrollbar-width: thin;
+}
+
+
+.textArea::-webkit-scrollbar {
+    width: 12px;
+}
+
+.textArea::-webkit-scrollbar-track {
+    background: rgba(240, 240, 240, 0.5);
+}
+
+.textArea::-webkit-scrollbar-thumb {
+    background-color: rgb(217, 217, 217);
+    border-radius: 20px;
+}
+
+.keyboardSettings {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;
+    border: 1px solid rgb(240, 240, 240);
+    border-radius: 10px;
+    background-color: rgba(240, 240, 240, 0.5);
+}
+
+.settingBlock {
+    width: 95%;
+    margin: 10px 0 0 0;
+}
+
+.settingBlock p {
+    margin-right: 10px;
+}
+
+.displayKeyboard {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.buttonsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.addForm {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+
+.addForm .input {
+    width: 30%;
+    margin-right: 10px;
+}
+
+.addButton {
+    width: 150px;
+    margin-left: 10px;
+}
+
+.buttons {
+    width: 100%;
+    margin: 20px 0;
+}
+
+.button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgba(22, 119, 255, 0.7);
+    border: 1px solid rgba(22, 119, 255, 1);
+    border-radius: 5px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.button p {
+    width: 90%;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden; 
+}
+
+.link p {
+    text-decoration: underline;
+}
