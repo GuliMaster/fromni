@@ -1,0 +1,1 @@
+export const errorSelector = (state) => state.channels.error;

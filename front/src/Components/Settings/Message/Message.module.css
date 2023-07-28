@@ -90,7 +90,22 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-color: #1677ff;
+    color: white;
+    background-color: rgba(22, 119, 255, 0.7);
+    border: 1px solid rgba(22, 119, 255, 1);
     border-radius: 5px;
-    
+    height: 40px;
+    cursor: pointer;
+}
+
+.button p {
+    width: 90%;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden; 
+}
+
+.link p {
+    text-decoration: underline;
 }
